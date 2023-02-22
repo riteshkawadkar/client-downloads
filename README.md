@@ -14,10 +14,12 @@ Here are the steps you can follow to manage different executables using Git subm
 
 ## Step 1: 
 **Create a separate repository for each version:**
+
 You can create a separate repository for each version of your software. For example, you can create a repository for the 32-bit version and another repository for the 64-bit version. Similarly, you can create a separate repository for each client, depending on their specific requirements.
 
 ## Step 2: 
 **Add the submodules to the main repository:**
+
 After you have created the separate repositories for each version of your software, you can add them as submodules to the main repository. To do this, navigate to the root of the main repository and run the following command:
 
 `git submodule add <URL of the submodule repository> <path to the submodule>`
@@ -30,6 +32,7 @@ Similarly, you can add the 64-bit version and each client repository as submodul
 
 ## Step 3: 
 **Commit the changes:**
+
 After you have added the submodules to the main repository, you need to commit the changes by running the following commands:
 
 ```bash
@@ -39,6 +42,7 @@ git commit -m "Added submodules for different versions"
 
 ## Step 4: 
 **Update the submodules:**
+
 Whenever there are updates to the submodules, you can update them by navigating to the root of the main repository and running the following commands:
 
 ```bash
@@ -50,6 +54,7 @@ The first command updates the submodule references in the main repository, while
 
 ## Step 5: 
 **Build and Test:**
+
 Once you have added and updated the submodules, you can build and test your code. Depending on your development process, you can use a build tool such as MSBuild or a continuous integration and deployment (CI/CD) tool such as Jenkins or Travis CI to automate the build and test process.
 
 By using Git submodules to manage different executables, you can keep the code for each version separate while still being able to manage them together in the main repository. This makes it easier to maintain and manage different versions of your software and streamline the development process.
