@@ -7,7 +7,7 @@ To manage different executables for different architectures and clients, you can
 
 Managing different executables for different architectures and clients is an essential aspect of software development, particularly if you want to develop a cross-platform application. As you mentioned in your question, your software has different exe files for 32-bit and 64-bit architecture, and there are changes based on each client, which requires you to maintain two exes for each client. To manage these different executables efficiently, you can use Git submodules. Here's how it works:
 
-Git Submodules:
+# Git Submodules:
 Git submodules allow you to include one Git repository within another Git repository as a subdirectory. This means you can keep the code for different versions separate while still being able to manage them together in the main repository. For example, you can create a separate repository for each client and architecture, and then add them as submodules to the main repository.
 
 Here are the steps you can follow to manage different executables using Git submodules:
@@ -18,11 +18,11 @@ You can create a separate repository for each version of your software. For exam
 Step 2: Add the submodules to the main repository:
 After you have created the separate repositories for each version of your software, you can add them as submodules to the main repository. To do this, navigate to the root of the main repository and run the following command:
 
-git submodule add <URL of the submodule repository> <path to the submodule>
+`git submodule add <URL of the submodule repository> <path to the submodule>`
 
 For example, if you have a repository for the 32-bit version of your software, you can add it as a submodule to the main repository using the following command:
 
-git submodule add https://github.com/<username>/<32-bit-repo>.git 32-bit
+`git submodule add https://github.com/<username>/<32-bit-repo>.git 32-bit`
 
 Similarly, you can add the 64-bit version and each client repository as submodules to the main repository.
 
