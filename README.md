@@ -64,3 +64,22 @@ The first command updates the submodule references in the main repository, while
 Once you have added and updated the submodules, you can build and test your code. Depending on your development process, you can use a build tool such as MSBuild or a continuous integration and deployment (CI/CD) tool such as Jenkins or Travis CI to automate the build and test process.
 
 By using Git submodules to manage different executables, you can keep the code for each version separate while still being able to manage them together in the main repository. This makes it easier to maintain and manage different versions of your software and streamline the development process.
+
+# RECOVERY
+
+If the submodule repository was deleted and a new repository was created with the same name, you would need to update the submodule URL in the parent repository to point to the new repository. Here's how you can do it:
+
+**Update the submodule URL:**
+```bash
+git submodule sync
+git submodule update --remote
+```
+
+**Commit the changes to the parent repository:**
+`git commit -am "Update submodule URL"`
+
+**Push the changes to the remote repository:**
+`git push`
+
+
+This should update the submodule URL to point to the new repository and allow you to use the submodule as usual. However, keep in mind that any changes made to the submodule in the old repository will be lost and you will need to manually copy them over to the new repository.
