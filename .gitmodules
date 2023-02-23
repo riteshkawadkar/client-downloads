@@ -22,12 +22,6 @@
 [submodule "kemwell-prevent-32"]
 	path = kemwell-prevent-32
 	url = https://github.com/riteshkawadkar/kemwell-prevent-32.git
-[submodule "amneal-prevent-64"]
-	path = amneal-prevent-64
-	url = https://github.com/riteshkawadkar/amneal-prevent-64.git
-[submodule "amneal-prevent-32"]
-	path = amneal-prevent-32
-	url = https://github.com/riteshkawadkar/amneal-prevent-32.git
 [submodule "amneal-prevent-admin-64"]
 	path = amneal-prevent-admin-64
 	url = https://github.com/riteshkawadkar/amneal-prevent-admin-64.git
