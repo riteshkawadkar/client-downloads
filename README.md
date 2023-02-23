@@ -43,6 +43,7 @@ After you have added the submodules to the main repository, you need to commit t
 ```bash
 git add .
 git commit -m "Added submodules for different versions"
+git push
 ```
 
 ## Step 4: 
