@@ -10,3 +10,9 @@
 [submodule "shriram-prevent-64"]
 	path = shriram-prevent-64
 	url = https://github.com/riteshkawadkar/shriram-prevent-64.git
+[submodule "llabs-prevent-32"]
+	path = llabs-prevent-32
+	url = https://github.com/riteshkawadkar/llabs-prevent-32.git
+[submodule "llabs-prevent-64"]
+	path = llabs-prevent-64
+	url = https://github.com/riteshkawadkar/llabs-prevent-64.git
