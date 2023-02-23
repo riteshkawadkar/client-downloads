@@ -17,8 +17,10 @@ Here are the steps you can follow to manage different executables using Git subm
 
 You can create a separate repository for each version of your software. For example, you can create a repository for the 32-bit version and another repository for the 64-bit version. Similarly, you can create a separate repository for each client, depending on their specific requirements. Create Tags for each of them
 
-`git tag -a client1_32 -m "Tagging client1 32-bit executable"`
-`git push origin client1_32`
+```bash
+git tag -a client1_32 -m "Tagging client1 32-bit executable"
+git push origin client1_32
+```
 
 ## Step 2: 
 **Add the submodules to the main repository:**
