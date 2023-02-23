@@ -4,3 +4,9 @@
 [submodule "divis-prevent-32"]
 	path = divis-prevent-32
 	url = https://github.com/riteshkawadkar/divis-prevent-32.git
+[submodule "shriram-prevent-32"]
+	path = shriram-prevent-32
+	url = https://github.com/riteshkawadkar/shriram-prevent-32.git
+[submodule "shriram-prevent-64"]
+	path = shriram-prevent-64
+	url = https://github.com/riteshkawadkar/shriram-prevent-64.git
