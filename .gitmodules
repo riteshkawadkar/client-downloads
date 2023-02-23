@@ -16,3 +16,9 @@
 [submodule "llabs-prevent-64"]
 	path = llabs-prevent-64
 	url = https://github.com/riteshkawadkar/llabs-prevent-64.git
+[submodule "kemwell-prevent-64"]
+	path = kemwell-prevent-64
+	url = https://github.com/riteshkawadkar/kemwell-prevent-64.git
+[submodule "kemwell-prevent-32"]
+	path = kemwell-prevent-32
+	url = https://github.com/riteshkawadkar/kemwell-prevent-32.git
