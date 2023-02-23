@@ -18,7 +18,7 @@ Here are the steps you can follow to manage different executables using Git subm
 You can create a separate repository for each version of your software. For example, you can create a repository for the 32-bit version and another repository for the 64-bit version. Similarly, you can create a separate repository for each client, depending on their specific requirements. Create Tags for each of them
 
 ```bash
-git tag -a client1_32 -m "Tagging client1 32-bit executable"
+git tag -a client1_32 -m "32-bit executable - Version 4.7.3 for Divis"
 git push origin client1_32
 ```
 
