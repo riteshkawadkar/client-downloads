@@ -34,3 +34,9 @@
 [submodule "amneal-prevent-64"]
 	path = amneal-prevent-64
 	url = https://github.com/riteshkawadkar/amneal-prevent-64.git
+[submodule "concord-prevent-64"]
+	path = concord-prevent-64
+	url = https://github.com/riteshkawadkar/concord-prevent-64.git
+[submodule "concord-prevent-32"]
+	path = concord-prevent-32
+	url = https://github.com/riteshkawadkar/concord-prevent-32.git
