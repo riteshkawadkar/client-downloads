@@ -40,3 +40,9 @@
 [submodule "concord-prevent-32"]
 	path = concord-prevent-32
 	url = https://github.com/riteshkawadkar/concord-prevent-32.git
+[submodule "maiva-prevent-64"]
+	path = maiva-prevent-64
+	url = https://github.com/riteshkawadkar/maiva-prevent-64.git
+[submodule "maiva-prevent-32"]
+	path = maiva-prevent-32
+	url = https://github.com/riteshkawadkar/maiva-prevent-32.git
